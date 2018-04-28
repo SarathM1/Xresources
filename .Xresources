@@ -6,27 +6,12 @@ Xft.hintstyle: hintslight
 Xft.autohint: true
 Xft.lcdfilter: lcddefault
 
-URxvt*font: \
-    xft:SauceCodePro Nerd Font Mono:pixelsize=18:antialias=true, \
-    xft:SauceCodePro NF:pixelsize=9, \
-    xft:Sauce Code Powerline:pixelsize=10:antialias=true,\
-    xft:FontAwesome:size=8, \
-    xft:SourceCodePro:size=9,\
-    xft:DejaVuSansMono:size=11,\
-    xft:DroidSansMono:size=11,\
-    xft:Inconsolata:size=12,\
-    xft:Symbola:size=9,\
-URxvt*boldFont: xft:Sauce Code Powerline:size=9:antialias=true
-
-! URxvt*letterSpace: -2
+URxvt*font: xft:SauceCodePro Nerd Font Mono:pixelsize=18:antialias=true
+urxvt.letterSpace: -1
 
 urxvt.scrollBar: false
 urxvt.background: black
 urxvt.foreground: gray
-!! Font prefferenes
-! urxvt.font: xft:SauceCodePro Nerd Font Mono Regular:pixelsize=13, xft:DejaVu Sans Mono Book:pixelsize=13
-! urxvt.boldFont: xft:SauceCodePro Nerd Font Mono Bold:pixelsize=13:weight=bold
-urxvt.letterSpace: -2
 !! Larger history limit
 urxvt.saveLines: 1000000
 
